@@ -6,5 +6,7 @@ Pick<
   'user_id' |
   'description' |
   'amount' |
-  'type'
+  'type' |
+  'recipient_id' |
+  'sender_id'
 >
