@@ -59,7 +59,7 @@ export class CreateStatementUseCase {
     if(type === 'transfer') {
       await this.statementsRepository.create({
         user_id: recipient_id,
-        type: "deposit" as OperationType,
+        type: "transfer" as OperationType,
         amount,
         description,
         recipient_id,
